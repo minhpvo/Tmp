@@ -1,0 +1,9 @@
+#version 330 core
+uniform mat4 proj;
+uniform mat4 V;
+uniform mat4 T;
+in vec3 position; 
+void main()
+{
+gl_Position = proj * V * T* vec4(position, 1.); 
+}

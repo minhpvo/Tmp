@@ -1,0 +1,6 @@
+﻿  server.cpp
+  Generating code
+  All 171 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SiftGPU_Server.vcxproj -> C:\Research\DevSoft\EnRecon\ThirdParty\SiftGPU\msvc\ServerSiftGPU\..\..\bin\server_siftgpu.exe
+  SiftGPU_Server.vcxproj -> ..\..\bin\server_siftgpu.pdb (Full PDB)

@@ -1,0 +1,20 @@
+SIFTGPU <-- GLUT +GLEW + DEviL
+sudo apt-get install freeglut3-dev libglew-dev libdevil1c2 libdevil-dev
+sudo apt-get install libxmu-dev libxi-dev
+
+
+Boost:
+./boostrap.sh
+./b2
+sudo ./bjam -j8 variant=release link=static runtime-link=shared threading=multi install --layout=system \
+    --prefix=/usr --with-system --with-thread --with-locale --with-atomic --with-coroutine \
+    --with-context --with-filesystem --with-program_options --with-regex --with-date_time --with-timer \
+    --with-chrono --with-python
+    
+Eigen + GSL: ./configure --> make
+
+Ceres: ATLAS make sure to copy atlas lib /usr/lib/atlas-base to /usr/lib
+
+To setup bashrc:
+echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
+source ~/.bashrc

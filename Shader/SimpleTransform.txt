@@ -1,0 +1,18 @@
+#version 120 
+// Input vertex data, different for all executions of this shader.
+attribute vec3 vertexPosition_modelspace;
+attribute vec3 vertexColor;
+
+// Output data ; will be interpolated for each fragment.
+varying vec3 fragmentColor;
+
+// Values that stay constant for the whole mesh.
+uniform mat4 proj;
+uniform mat4 V;
+uniform mat4 T;
+
+void main()
+{	
+	gl_Position = proj * V * T* vec4(vertexPosition_modelspace, 1.); 
+	fragmentColor = vertexColor;
+}

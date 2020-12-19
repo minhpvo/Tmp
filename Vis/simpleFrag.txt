@@ -1,0 +1,7 @@
+#version 330 core
+out vec3 OutColor;
+uniform vec3 InColor; 
+void main()
+{
+OutColor = InColor;
+}

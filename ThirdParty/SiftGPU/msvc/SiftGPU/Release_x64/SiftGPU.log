@@ -1,0 +1,33 @@
+﻿  CLTexImage.cpp
+  FrameBufferObject.cpp
+  GlobalUtil.cpp
+  GLTexImage.cpp
+c:\research\devsoft\enrecon\thirdparty\siftgpu\src\siftgpu\ProgramGLSL.h(68): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+  ProgramCL.cpp
+  ProgramGLSL.cpp
+c:\research\devsoft\enrecon\thirdparty\siftgpu\src\siftgpu\ProgramGLSL.h(68): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+  ProgramGPU.cpp
+c:\research\devsoft\enrecon\thirdparty\siftgpu\src\siftgpu\ProgramGLSL.h(68): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+  PyramidCL.cpp
+  PyramidGL.cpp
+c:\research\devsoft\enrecon\thirdparty\siftgpu\src\siftgpu\ProgramGLSL.h(68): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+  ServerSiftGPU.cpp
+..\..\src\ServerSiftGPU\ServerSiftGPU.cpp(200): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238): note: see declaration of 'gethostbyname'
+..\..\src\ServerSiftGPU\ServerSiftGPU.cpp(455): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\ServerSiftGPU\ServerSiftGPU.cpp(476): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\ServerSiftGPU\ServerSiftGPU.cpp(489): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\ServerSiftGPU\ServerSiftGPU.cpp(559): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+..\..\src\ServerSiftGPU\ServerSiftGPU.cpp(768): warning C4838: conversion from 'int' to 'unsigned int' requires a narrowing conversion
+  ShaderMan.cpp
+c:\research\devsoft\enrecon\thirdparty\siftgpu\src\siftgpu\ProgramGLSL.h(68): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+  SiftGPU.cpp
+c:\research\devsoft\enrecon\thirdparty\siftgpu\src\siftgpu\ProgramGLSL.h(68): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+..\..\src\SiftGPU\SiftGPU.cpp(1372): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  SiftMatch.cpp
+c:\research\devsoft\enrecon\thirdparty\siftgpu\src\siftgpu\ProgramGLSL.h(68): warning C4312: 'type cast': conversion from 'GLuint' to 'void *' of greater size
+  SiftPyramid.cpp
+  Generating Code...
+     Creating library ../../lib/SIFTGPU.lib and object ../../lib/SIFTGPU.exp
+  SiftGPU.vcxproj -> C:\Research\DevSoft\EnRecon\ThirdParty\SiftGPU\msvc\SiftGPU\..\..\bin\SiftGPU.dll
+  SiftGPU.vcxproj -> Release_x64\/SIFTGPU.pdb (Full PDB)

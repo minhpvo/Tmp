@@ -1,0 +1,6 @@
+﻿  GLTestWnd.cpp
+..\..\src\TestWin\GLTestWnd.cpp(109): warning C4311: 'type cast': pointer truncation from 'GLTestWnd *' to 'long'
+..\..\src\TestWin\GLTestWnd.cpp(109): warning C4302: 'type cast': truncation from 'GLTestWnd *' to 'long'
+..\..\src\TestWin\GLTestWnd.cpp(122): warning C4312: 'type cast': conversion from 'LONG' to 'GLTestWnd *' of greater size
+  TestWin.vcxproj -> C:\Research\DevSoft\EnRecon\ThirdParty\SiftGPU\msvc\TestWin\..\..\bin\TestWin.exe
+  TestWin.vcxproj -> .\Release/TestWin.pdb (Full PDB)
